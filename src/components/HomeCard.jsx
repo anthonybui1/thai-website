@@ -1,7 +1,7 @@
 const HomeCard = (props) => {
   return (
     <div className="w-10/12 h-auto space-y-2 max-w-xl">
-      <img src={props.img} className="rounded" />
+      <img src={props.img} className="rounded shadow-md" />
       <h1 className="text-center font-black">{props.title}</h1>
       <div className="flex justify-evenly items-center">
         <p className="text-center mr-4">{props.descript}</p>

@@ -1,7 +1,7 @@
 import HomeCard from './HomeCard.jsx';
 import padthai from '../branding/padthai.jpg';
 import friedrice from '../branding/friedrice.jpg';
-import curry from '../branding/curry.jpg';
+import tomyum from '../branding/tomyum.jpg';
 import mango from '../branding/mango.jpg';
 
 const Showcase = () => {
@@ -14,7 +14,7 @@ const Showcase = () => {
     <div className="flex flex-col items-center space-y-10">
       <HomeCard img={padthai} descript={caption1} title="pad thai" price="13" />
       <HomeCard img={friedrice} descript={caption2} title="thai fried rice" price="12" />
-      <HomeCard img={curry} descript={caption3} title="tom yum soup" price="16" />
+      <HomeCard img={tomyum} descript={caption3} title="tom yum soup" price="16" />
       <HomeCard img={mango} descript={caption4} title="sticky rice with mango" price="8" />
     </div>
   );
