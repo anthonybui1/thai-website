@@ -44,7 +44,7 @@ const NavBar = () => {
 				</div>
 			</nav>
 			<div className={menuShow ? 'w-screen bg-gray-100 fixed top-20 z-10 opacity-95' : 'hidden'}>
-        <MobileMenu />
+        <MobileMenu setMenuShow={setMenuShow} />
 			</div>
 		</>
 	);
