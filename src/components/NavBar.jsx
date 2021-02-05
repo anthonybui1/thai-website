@@ -37,7 +37,7 @@ const NavBar = () => {
 
 	return (
 		<>
-			<nav className="bg-green-700 w-screen flex justify-center">
+			<nav className="bg-gray-800 w-screen flex justify-center fixed z-10">
 				<div className="flex flex-auto flex-row items-center justify-between max-w-screen-2xl">
 					<img src={logo} className="w-20 ml-8" />
 					{showMenu()}

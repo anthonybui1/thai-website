@@ -1,7 +1,9 @@
 const Button = (props) => {
 	return (
-		<button className="bg-yellow-300 rounded font-semibold text-xl px-5 py-2 hover:bg-yellow-400 transition duration-500 transform hover:scale-110 shadow-lg">
-			{props.text}
+		<button className="rounded font-semibold text-xl px-4 py-2 hover:bg-gray-700 transition duration-500 transform hover:scale-110 text-white">
+			<a href={props.link}>
+				{props.text}
+			</a>
 		</button>
 	);
 };

@@ -2,19 +2,19 @@ const MobileMenu = () => {
 	return (
 		<ul>
 			<li className="text-center text-2xl p-2 transition duration-500 hover:bg-yellow-200 cursor-pointer">
-				Home
+				home
 			</li>
 			<li className="text-center text-2xl p-2 transition duration-500 hover:bg-yellow-200 cursor-pointer">
-				Menu
+				menu
 			</li>
 			<li className="text-center text-2xl p-2 transition duration-500 hover:bg-yellow-200 cursor-pointer">
-				Gallery
+				gallery
 			</li>
 			<li className="text-center text-2xl p-2 transition duration-500 hover:bg-yellow-200 cursor-pointer">
-				Contact
+				contact
 			</li>
 			<li className="text-center text-2xl p-2 transition duration-500 hover:bg-yellow-200 cursor-pointer">
-				Order
+				order
 			</li>
 		</ul>
 	);
