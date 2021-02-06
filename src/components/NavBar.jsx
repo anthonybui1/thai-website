@@ -1,7 +1,8 @@
-import logo from '../branding/logo.png';
-import ButtonRow from './ButtonRow.jsx';
-import MobileMenu from './MobileMenu.jsx';
 import { useEffect, useState } from 'react';
+import logo from '../branding/logo.png';
+import MenuButtonRow from './MenuButtonRow.jsx';
+import MobileMenu from './MobileMenu.jsx';
+import NightModeButton from './NightModeButton.jsx';
 
 const NavBar = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -23,7 +24,7 @@ const NavBar = () => {
 
 	const showMenu = () => {
 		return windowWidth > 768 ? (
-			<ButtonRow />
+			<MenuButtonRow />
 		) : (
 			<button onClick={handleClick}>
 				<i className="fas fa-bars text-3xl mx-8 text-yellow-300"></i>
@@ -37,9 +38,12 @@ const NavBar = () => {
 
 	return (
 		<>
-			<nav className="bg-gray-800 w-screen flex justify-center fixed z-10">
+			<nav className="bg-black w-screen flex justify-center fixed z-10">
 				<div className="flex flex-auto flex-row items-center justify-between max-w-screen-2xl">
-					<img src={logo} className="w-20 ml-8" />
+					<div className="flex items-center">
+						<img src={logo} className="w-20 ml-8" />
+						<NightModeButton />
+					</div>
 					{showMenu()}
 				</div>
 			</nav>
