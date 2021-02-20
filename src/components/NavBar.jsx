@@ -15,7 +15,7 @@ const NavBar = () => {
 
 		if (menuShow && windowWidth > 768) {
 			setMenuShow(!menuShow);
-		};
+		}
 
 		return window.removeEventListener('resize', () => {
 			console.log('Resize listener cleaned up');
@@ -47,8 +47,14 @@ const NavBar = () => {
 					{showMenu()}
 				</div>
 			</nav>
-			<div className={menuShow ? 'w-screen bg-gray-100 fixed top-20 z-10 opacity-95' : 'hidden'}>
-        <MobileMenu setMenuShow={setMenuShow} />
+			<div
+				className={
+					menuShow
+						? 'w-screen bg-gray-100 fixed top-20 z-10 opacity-95'
+						: 'hidden'
+				}
+			>
+				<MobileMenu setMenuShow={setMenuShow} />
 			</div>
 		</>
 	);

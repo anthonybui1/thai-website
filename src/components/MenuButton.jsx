@@ -8,16 +8,15 @@ const MenuButton = (props) => {
 	);
 
 	const orderButton = (
-		<a href="https://direct.chownow.com/order/20484/locations/29585" target="_blank">
+		<a
+			href="https://direct.chownow.com/order/20484/locations/29585"
+			target="_blank"
+		>
 			{buttonRender}
 		</a>
 	);
 
-	const browserRouteButton = (
-		<Link to={props.link}>
-			{buttonRender}
-		</Link>
-	);
+	const browserRouteButton = <Link to={props.link}>{buttonRender}</Link>;
 
 	return <>{props.link.length < 10 ? browserRouteButton : orderButton}</>;
 };

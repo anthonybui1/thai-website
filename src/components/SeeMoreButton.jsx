@@ -8,6 +8,6 @@ const SeeMoreButton = () => {
 			</button>
 		</Link>
 	);
-}
+};
 
 export default SeeMoreButton;

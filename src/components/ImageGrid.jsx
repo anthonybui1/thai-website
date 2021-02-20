@@ -13,22 +13,22 @@ import mango from '../branding/mangorice.jpg';
 import icecream from '../branding/icecream.jpg';
 
 const ImageGrid = () => {
-  return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-32 mx-4 md:mx-12 max-w-screen-xl">
-      <ImageGridItem image={friedrice} />
-      <ImageGridItem image={padthai} />
-      <ImageGridItem image={tomyum} />
-      <ImageGridItem image={friedfish} />
-      <ImageGridItem image={fritters} />
-      <ImageGridItem image={gangdang} />
-      <ImageGridItem image={padkeemao} />
-      <ImageGridItem image={soupdumplings} />
-      <ImageGridItem image={tomkha} />
-      <ImageGridItem image={wings} />
-      <ImageGridItem image={mango} />
-      <ImageGridItem image={icecream} />
-    </div>
-  );
-}
+	return (
+		<div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-32 mx-4 md:mx-12 max-w-screen-xl">
+			<ImageGridItem image={friedrice} />
+			<ImageGridItem image={padthai} />
+			<ImageGridItem image={tomyum} />
+			<ImageGridItem image={friedfish} />
+			<ImageGridItem image={fritters} />
+			<ImageGridItem image={gangdang} />
+			<ImageGridItem image={padkeemao} />
+			<ImageGridItem image={soupdumplings} />
+			<ImageGridItem image={tomkha} />
+			<ImageGridItem image={wings} />
+			<ImageGridItem image={mango} />
+			<ImageGridItem image={icecream} />
+		</div>
+	);
+};
 
 export default ImageGrid;

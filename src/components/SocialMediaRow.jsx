@@ -3,7 +3,10 @@ const SocialMediaRow = () => {
 		<>
 			<h1 className="my-6 font-black">follow us on social media!</h1>
 			<div className="flex justify-evenly w-8/12 max-w-screen-lg text-6xl mb-6 space-x-4">
-				<a href="https://www.facebook.com/Titayas-Thai-Cuisine-367337886743915/" target="_blank">
+				<a
+					href="https://www.facebook.com/Titayas-Thai-Cuisine-367337886743915/"
+					target="_blank"
+				>
 					<i className="fab fa-facebook-square text-blue-500 transform hover:translate-y-1" />
 				</a>
 				<a href="https://www.instagram.com/" target="_blank">

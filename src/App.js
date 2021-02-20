@@ -19,10 +19,10 @@ const App = () => {
 						<div className="h-screen flex flex-col items-center justify-center">
 							<h1 className="text-4xl">Coming soon!</h1>
 						</div>
-          </Route>
+					</Route>
 					<Route path="/gallery">
 						<ImageGrid />
-          </Route>
+					</Route>
 					<Route path="/menu">
 						<div className="h-screen flex flex-col items-center justify-center">
 							<h1 className="text-4xl">Coming soon!</h1>

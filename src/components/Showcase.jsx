@@ -12,7 +12,7 @@ const Showcase = () => {
 	const caption3 =
 		'classic spicy and tangy broth with chili, lime, lemongrass, yellow onions, tomatoes, and mushrooms. topped with green onions. served without rice.';
 	const caption4 =
-		'everyone\'s favorite. made with coconut milk, sugar, salt, and mango cubes.';
+		"everyone's favorite. made with coconut milk, sugar, salt, and mango cubes.";
 
 	return (
 		<div className="flex flex-col items-center space-y-10">
