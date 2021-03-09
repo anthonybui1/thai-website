@@ -2,7 +2,7 @@ import SocialMediaRow from './SocialMediaRow';
 
 const Footer = () => {
 	return (
-		<footer className="w-screen h-auto bg-gray-200 mt-12 flex flex-col items-center dark:bg-black">
+		<footer className="w-screen h-auto bg-gray-200 mt-12 flex flex-col items-center dark:bg-gray-800">
 			<SocialMediaRow />
 			<p className="text-center text-xs m-5">
 				this is a mock site, the logo and content belong solely to titaya's thai

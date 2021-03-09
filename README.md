@@ -11,17 +11,17 @@ and specials while providing a redirect to ChowNow for ordering services.
 - React
 
 ## Installation
-Create a project directory
+Enter your project directory
 
-`mkdir project-name`
-
-Enter the project directory
-
-`cd project-name`
+`cd project-directory`
 
 Clone the repository
 
-`git clone https://github.com/anthonybui94/thai-website.git`
+`git clone git@github.com:anthonybui94/thai-website.git`
+
+Move into the created directory
+
+`cd thai-website`
 
 Install dependencies
 
