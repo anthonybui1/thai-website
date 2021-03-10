@@ -1,4 +1,4 @@
-import MenuButton from '../molecules/MenuButton.jsx';
+import MenuButton from '../molecules/MenuButton';
 
 const MenuButtonRow = () => {
 	return (

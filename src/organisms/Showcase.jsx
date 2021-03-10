@@ -1,4 +1,4 @@
-import HomeCard from '../molecules/HomeCard.jsx';
+import HomeCard from '../molecules/HomeCard';
 import padthai from '../assets/padthai.jpg';
 import friedrice from '../assets/friedrice.jpg';
 import tomyum from '../assets/tomyum.jpg';

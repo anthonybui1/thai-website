@@ -2,9 +2,9 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import MenuButtonRow from './MenuButtonRow.jsx';
-import MobileMenu from './MobileMenu.jsx';
-import NightModeButton from '../molecules/NightModeButton.jsx';
+import MenuButtonRow from './MenuButtonRow';
+import MobileMenu from './MobileMenu';
+import NightModeButton from '../molecules/NightModeButton';
 
 const Header = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);

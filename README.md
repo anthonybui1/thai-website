@@ -30,8 +30,7 @@ Install dependencies
 
 ## Usage
 
-The user can browse and read more about what Titaya's has to offer, click the order button to redirect to
-ChowNow, and even trigger a dark mode.
+The user can browse and read more about what Titaya's has to offer, click the order button to redirect to ChowNow, and even trigger a dark mode.
 
 ## Contributing
 
