@@ -4,9 +4,5 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
 }

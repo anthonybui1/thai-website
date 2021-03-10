@@ -1,4 +1,4 @@
-import ImageGridItem from './ImageGridItem';
+import ImageGridItem from '../molecules/ImageGridItem';
 import friedrice from '../branding/friedrice.jpg';
 import padthai from '../branding/padthai.jpg';
 import tomyum from '../branding/tomyum.jpg';
@@ -12,9 +12,9 @@ import wings from '../branding/wings.jpg';
 import mango from '../branding/mangorice.jpg';
 import icecream from '../branding/icecream.jpg';
 
-const ImageGrid = () => {
+const GalleryPage = () => {
 	return (
-		<div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-32 mx-4 md:mx-12 max-w-screen-xl">
+		<div className='grid grid-cols-2 md:grid-cols-3 gap-3 mt-8 mx-4 md:mx-12 max-w-screen-xl'>
 			<ImageGridItem image={friedrice} />
 			<ImageGridItem image={padthai} />
 			<ImageGridItem image={tomyum} />
@@ -31,4 +31,4 @@ const ImageGrid = () => {
 	);
 };
 
-export default ImageGrid;
+export default GalleryPage;

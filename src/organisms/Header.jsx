@@ -1,11 +1,12 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import logo from '../branding/logo.png';
 import MenuButtonRow from './MenuButtonRow.jsx';
 import MobileMenu from './MobileMenu.jsx';
-import NightModeButton from './NightModeButton.jsx';
+import NightModeButton from '../molecules/NightModeButton.jsx';
 
-const NavBar = () => {
+const Header = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 	const [menuShow, setMenuShow] = useState(false);
 	const history = useHistory();
@@ -44,9 +45,9 @@ const NavBar = () => {
 	};
 
 	return (
-		<>
-			<nav className='dark:bg-gray-800 bg-black w-screen flex justify-center fixed z-20'>
-				<div className='flex flex-auto flex-row items-center justify-between max-w-screen-2xl'>
+		<React.Fragment>
+			<nav className='dark:bg-gray-800 bg-black w-full flex justify-center sticky top-0 z-20 shadow-md'>
+				<div className='flex flex-auto flex-row items-center justify-between max-w-screen-xl'>
 					<div className='flex items-center'>
 						<img src={logo} className='w-16 ml-8 cursor-pointer' onClick={handleLogoClick} />
 						<NightModeButton />
@@ -55,8 +56,8 @@ const NavBar = () => {
 				</div>
 			</nav>
 			<MobileMenu menuShow={menuShow} setMenuShow={setMenuShow} />
-		</>
+		</React.Fragment>
 	);
 };
 
-export default NavBar;
+export default Header;
