@@ -1,8 +1,8 @@
 import HomeCard from '../molecules/HomeCard.jsx';
-import padthai from '../branding/padthai.jpg';
-import friedrice from '../branding/friedrice.jpg';
-import tomyum from '../branding/tomyum.jpg';
-import mango from '../branding/mango.jpg';
+import padthai from '../assets/padthai.jpg';
+import friedrice from '../assets/friedrice.jpg';
+import tomyum from '../assets/tomyum.jpg';
+import mango from '../assets/mango.jpg';
 
 const Showcase = () => {
 	const caption1 =

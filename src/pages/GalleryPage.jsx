@@ -1,16 +1,16 @@
 import ImageGridItem from '../molecules/ImageGridItem';
-import friedrice from '../branding/friedrice.jpg';
-import padthai from '../branding/padthai.jpg';
-import tomyum from '../branding/tomyum.jpg';
-import friedfish from '../branding/friedfish.jpg';
-import fritters from '../branding/fritters.jpg';
-import gangdang from '../branding/gangdang.jpg';
-import padkeemao from '../branding/padkeemao.jpg';
-import soupdumplings from '../branding/soupdumplings.jpg';
-import tomkha from '../branding/tomkha.jpg';
-import wings from '../branding/wings.jpg';
-import mango from '../branding/mangorice.jpg';
-import icecream from '../branding/icecream.jpg';
+import friedrice from '../assets/friedrice.jpg';
+import padthai from '../assets/padthai.jpg';
+import tomyum from '../assets/tomyum.jpg';
+import friedfish from '../assets/friedfish.jpg';
+import fritters from '../assets/fritters.jpg';
+import gangdang from '../assets/gangdang.jpg';
+import padkeemao from '../assets/padkeemao.jpg';
+import soupdumplings from '../assets/soupdumplings.jpg';
+import tomkha from '../assets/tomkha.jpg';
+import wings from '../assets/wings.jpg';
+import mango from '../assets/mangorice.jpg';
+import icecream from '../assets/icecream.jpg';
 
 const GalleryPage = () => {
 	return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import logo from '../branding/logo.png';
+import logo from '../assets/logo.png';
 import MenuButtonRow from './MenuButtonRow.jsx';
 import MobileMenu from './MobileMenu.jsx';
 import NightModeButton from '../molecules/NightModeButton.jsx';
