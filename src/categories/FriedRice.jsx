@@ -1,10 +1,10 @@
 import React from 'react';
-import { soup } from '../assets/menuData';
+import { friedRice } from '../assets/menuData';
 
-const Soups = () => {
+const FriedRice = () => {
 	return (
 		<div className='space-y-4'>
-			{soup.map((item) => {
+			{friedRice.map((item) => {
 				return (
 					<div className='md:text-center'>
 						<h1>{item.title}</h1>
@@ -21,4 +21,4 @@ const Soups = () => {
 	);
 };
 
-export default Soups;
+export default FriedRice;

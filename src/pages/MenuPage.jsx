@@ -2,7 +2,14 @@ import React from 'react';
 import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
 
 import FirstBites from '../categories/FirstBites';
+import FriedRice from '../categories/FriedRice';
+import RefreshingDishes from '../categories/RefreshingDishes';
 import Soups from '../categories/Soups';
+import Curry from '../categories/Curry';
+import Noodles from '../categories/Noodles';
+import StirFry from '../categories/StirFry';
+import ClassicDishes from '../categories/ClassicDishes';
+import BeveragesAndDesserts from '../categories/BeveragesAndDesserts';
 
 const MenuPage = () => {
 	let { path, url } = useRouteMatch();
@@ -62,6 +69,13 @@ const MenuPage = () => {
 				<Switch>
 					<Route exact path={`${path}/firstbites`} component={FirstBites} />
 					<Route exact path={`${path}/soups`} component={Soups} />
+					<Route exact path={`${path}/refreshingdishes`} component={RefreshingDishes} />
+					<Route exact path={`${path}/friedrice`} component={FriedRice} />
+					<Route exact path={`${path}/curry`} component={Curry} />
+					<Route exact path={`${path}/noodles`} component={Noodles} />
+					<Route exact path={`${path}/stirfry`} component={StirFry} />
+					<Route exact path={`${path}/classicdishes`} component={ClassicDishes} />
+					<Route exact path={`${path}/beveragesanddesserts`} component={BeveragesAndDesserts} />
 				</Switch>
 			</div>
 		</div>
