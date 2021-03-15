@@ -31,7 +31,7 @@ const LocationPage = () => {
 			<iframe
 				src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8191.234194445563!2d-97.73009874214328!3d30.32280980491718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x364ed70bbade3b55!2sTitaya&#39;s%20Thai%20Cuisine!5e0!3m2!1sen!2sus!4v1615334091981!5m2!1sen!2sus'
 				style={{ border: '0' }}
-				allowfullscreen=''
+				allowFullScreen=''
 				loading='lazy'
 				className='h-96 md:w-full md:h-5/6 md:mt-8'
 			></iframe>

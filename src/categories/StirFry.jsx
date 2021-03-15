@@ -4,14 +4,14 @@ import { stirFry } from '../assets/menuData';
 const StirFry = () => {
 	return (
 		<div className='space-y-4'>
-			{stirFry.map((item) => {
+			{stirFry.map((item, index) => {
 				return (
-					<div className='md:text-center'>
+					<div className='md:text-center' key={index}>
 						<h1>{item.title}</h1>
 						<p>{item.description}</p>
 						<React.Fragment>
-							{item.price.map((price) => {
-								return <p>{price}</p>;
+							{item.price.map((price, index) => {
+								return <p key={index}>{price}</p>;
 							})}
 						</React.Fragment>
 					</div>

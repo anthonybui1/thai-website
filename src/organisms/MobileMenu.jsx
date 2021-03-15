@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 const MobileMenu = ({ setMenuShow, menuShow }) => {
 	const handleClick = () => {
 		setMenuShow(false);
+		setTimeout(() => {
+			window.scrollTo(0, 0);
+		}, 200);
 	};
 
 	return (

@@ -18,48 +18,63 @@ const MenuPage = () => {
 		<div className='w-full'>
 			<div className='text-2xl mt-8 w-full flex flex-wrap justify-center'>
 				<Link
-					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800'
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
 					to={`${url}/firstbites`}
 				>
 					First Bites
 				</Link>
 
-				<Link className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800' to={`${url}/soups`}>
+				<Link
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
+					to={`${url}/soups`}
+				>
 					Soups
 				</Link>
 
 				<Link
-					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800'
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
 					to={`${url}/refreshingdishes`}
 				>
 					Refreshing Dishes
 				</Link>
 
-				<Link className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800' to={`${url}/friedrice`}>
+				<Link
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
+					to={`${url}/friedrice`}
+				>
 					Fried Rice
 				</Link>
 
-				<Link className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800' to={`${url}/curry`}>
+				<Link
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
+					to={`${url}/curry`}
+				>
 					Curry
 				</Link>
 
-				<Link className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800' to={`${url}/noodles`}>
+				<Link
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
+					to={`${url}/noodles`}
+				>
 					Noodles
 				</Link>
 
-				<Link className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800' to={`${url}/stirfry`}>
+				<Link
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
+					to={`${url}/stirfry`}
+				>
 					Stir Fry
 				</Link>
 
 				<Link
-					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800'
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
 					to={`${url}/classicdishes`}
 				>
 					Titaya's Classic Dishes
 				</Link>
 
 				<Link
-					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800'
+					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'
 					to={`${url}/beveragesanddesserts`}
 				>
 					Beverages & Desserts
@@ -67,6 +82,12 @@ const MenuPage = () => {
 			</div>
 			<div className='my-12 px-4'>
 				<Switch>
+					<Route exact path={`${path}/`}>
+						<h2 className='text-center text-4xl mt-24 mb-8'>
+							Please tap on one of the options above!
+						</h2>
+						<p className='text-4xl text-center w-full animate-bounce'>🥢</p>
+					</Route>
 					<Route exact path={`${path}/firstbites`} component={FirstBites} />
 					<Route exact path={`${path}/soups`} component={Soups} />
 					<Route exact path={`${path}/refreshingdishes`} component={RefreshingDishes} />
