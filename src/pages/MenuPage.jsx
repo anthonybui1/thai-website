@@ -15,7 +15,7 @@ const MenuPage = () => {
 	let { path, url } = useRouteMatch();
 
 	return (
-		<div className='w-full'>
+		<div className='w-full mb-auto'>
 			<div className='text-2xl mt-8 w-full flex flex-wrap justify-center'>
 				<Link
 					className='border-2 m-2 px-4 py-2 rounded-lg border-gray-800 shadow-md'

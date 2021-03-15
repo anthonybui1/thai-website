@@ -16,18 +16,12 @@ const App = () => {
 
 	return (
 		<BrowserRouter>
-			<main className='flex flex-col items-center dark:bg-gray-900 dark:text-white transition-all duration-500'>
+			<main className='flex flex-col items-center dark:bg-gray-900 dark:text-white transition-all duration-500 min-h-screen'>
 				<Header />
 				<Switch>
-					<Route path='/contact'>
-						<LocationPage />
-					</Route>
-					<Route path='/gallery'>
-						<GalleryPage />
-					</Route>
-					<Route path='/menu'>
-						<MenuPage />
-					</Route>
+					<Route path='/contact' component={LocationPage} />
+					<Route path='/gallery' component={GalleryPage} />
+					<Route path='/menu' component={MenuPage} />
 					<Route path='/'>
 						<div className='max-w-screen-xl flex flex-col items-center space-y-12'>
 							<Hero />
