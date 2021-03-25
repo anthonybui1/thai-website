@@ -32,6 +32,8 @@ Install dependencies
 
 The user can browse and read more about what Titaya's has to offer, click the order button to redirect to ChowNow, and even trigger a dark mode.
 
+![Demo of the Titaya's Thai website](https://media.giphy.com/media/j7MYFGvyRoDiDcl0El/giphy.gif)
+
 ## Contributing
 
 "fork-and-pull" Git workflow
